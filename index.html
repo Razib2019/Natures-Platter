@@ -445,8 +445,8 @@
     </div>
     <!-- Popular Product Section Ends Here -->
     <!-- Arrival And Offer Section Starts Here -->
-    <div class="lg:mb-[390px] mb-[235px]">
-      <div class="bg-[#FFF] xl:py-36 lg:py-28 sm:py-24 py-12">
+    <div>
+      <div class="bg-[#FFF] xl:pt-36 lg:pt-28 sm:pt-24 pt-12">
         <div class="xl:w-4/5 lg:w-11/12 md:w-11/12 w-11/12 mx-auto">
           <h1
             class="text-[#179800] text-4xl font-semibold lg:mb-16 md:mb-12 sm:mb-10 mb-7"
@@ -508,11 +508,41 @@
     </div>
     <!-- Arrival And Offer Section Ends Here -->
     <!-- Get Grocery News Sections Starts Here -->
+    <div
+      class="bg-[#EFEBE3] rounded-3xl xl:w-4/5 lg:w-11/12 md:w-11/12 w-11/12 mx-auto lg:py-14 py-8 flex lg:flex-row flex-col xl:gap-0 gap-6 lg:justify-around justify-center items-center lg:text-start text-center relative lg:top-56 sm:top-60 top-60"
+    >
+      <div>
+        <img src="./assets/fruit-basket.png" alt="" />
+      </div>
+      <div class="flex flex-col lg:items-start items-center">
+        <h3 class="text-[#111] lg:text-4xl text-2xl lg:font-semibold font-bold">
+          Get Grocery News!
+        </h3>
+        <p
+          class="text-[#111] lg:text-xl text-base lg:mt-6 mt-3 lg:mb-9 mb-5 lg:w-full w-11/12 mx-auto"
+        >
+          Exclusive training tips, ticks, product deals and more.
+        </p>
+        <input
+          type="email"
+          name="email"
+          class="bg-white rounded-lg lg:p-4 p-2 text-[#C4C4C4] lg:text-base text-sm block lg:w-[450px] w-11/12 lg:mx-0 mx-auto"
+          placeholder="Enter email...."
+        />
+        <button
+          class="bg-[#179800] lg:text-xl text-sm text-white lg:px-8 py-2 rounded-lg lg:mt-9 mt-4 lg:w-[180px] lg:mx-0 w-11/12 mx-auto"
+        >
+          Subscribe
+        </button>
+      </div>
+    </div>
     <!-- Get Grocery News Sections Ends Here -->
     <!-- Footer Section Starts Here -->
-    <div class="bg-[#179800] xl:py-36 lg:py-28 md:py-24 py-12">
+    <div
+      class="bg-[#179800] xl:pb-36 xl:pt-0 lg:pb-28 lg:pt-0 sm:pb-24 sm:pt-48 pb-12 pt-48"
+    >
       <div
-        class="xl:w-4/5 lg:w-11/12 md:w-11/12 w-11/12 mx-auto pt-96 flex lg:flex-row flex-col lg:justify-between lg:items-center lg:gap-0 gap-8"
+        class="xl:w-4/5 lg:w-11/12 md:w-11/12 w-11/12 mx-auto lg:pt-96 pt-72 flex lg:flex-row flex-col lg:justify-between lg:items-center lg:gap-0 gap-8"
       >
         <div>
           <div>
@@ -526,19 +556,27 @@
           </p>
         </div>
         <div class="text-[#EFEBE3] lg:text-xl text-base">
-          <p>Product</p>
-          <p class="lg:my-8 my-4">Services</p>
-          <p>Contact us</p>
+          <a href="#product"><p>Product</p></a>
+          <a href="#services"><p class="lg:my-8 my-4">Services</p></a>
+          <a href="#contact_us"><p>Contact us</p></a>
         </div>
         <div>
           <p class="text-[#EFEBE3] text-base lg:font-medium font-normal mb-3">
             Follow Us
           </p>
           <div class="text-white lg:text-xl text-base">
-            <i class="fa-brands fa-facebook mr-5"></i>
-            <i class="fa-brands fa-instagram mr-5"></i>
-            <i class="fa-brands fa-linkedin mr-5"></i>
-            <i class="fa-brands fa-youtube"></i>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="fa-brands fa-facebook mr-5 cursor-pointer"></i
+            ></a>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="fa-brands fa-instagram mr-5 cursor-pointer"></i
+            ></a>
+            <a href="https://www.linkedin.com/" target="_blank"
+              ><i class="fa-brands fa-linkedin mr-5 cursor-pointer"></i
+            ></a>
+            <a href="https://www.youtube.com/" target="_blank"
+              ><i class="fa-brands fa-youtube cursor-pointer"></i
+            ></a>
           </div>
         </div>
       </div>
